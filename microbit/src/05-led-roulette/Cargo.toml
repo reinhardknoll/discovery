@@ -23,5 +23,6 @@ panic-halt = "0.2.0"
 #panic-rtt-target = { version = "0.1.2", features = ["cortex-m"] }
 
 [features]
+default = ["v2"]
 v2 = ["microbit-v2"]
 v1 = ["microbit"]
